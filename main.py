@@ -3,24 +3,38 @@ from os import *
 
 def clear():
     os.system("cls")
+clear()
 
 
-
-begining = input("You are Walter Jr. a 14 year old boy with cerebral palsy. You wake up grab your crutches and walk down the hallway to your kitchen where you greet your mother Skylar and your father Walter. You pull a chair out and sit down at the table.\n\n Do you eat your breakfast?  ")
+begining = input("Welcome to DingleTron Into The Dingle-Verse!\n \n \nDo you want to start the game?\n \n \n")
 
 def chooseYes():    
     clear()
-    print("You eat your eggs and bacon and it gives you the energy you need to make it through the day.")
+    print("The year is 2400 b.c. \n \n")
 
 if begining == "Y":
     chooseYes()
 else:
-    print("You dont eat your breakfast and you go hungry for the day.")
+    print("You cant start the game if u dont put yes!")
 
 
-question1 = input("")
+question1 = input("You are a lone dingle asleep in a small dingle house. You hear a loud smash in your home do you investigate? \n \n \n") 
 
 
+def chooseYes2():
+    clear()
+    print("You walk out of your room and down your hallway into your kitchen and see a racoob!\n \n \nDo you try to fight the racoob? \n \n \n")
+ 
+
+
+if question1 == "Y":
+  chooseYes2()
+else:
+    clear()
+    print("You stay in your room thinking about what might be making the noise and eventually fall back asleep. \n \n ")
+
+
+question2 = input("")
 
 
 
